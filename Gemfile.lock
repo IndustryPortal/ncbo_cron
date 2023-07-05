@@ -1,4 +1,24 @@
 GIT
+  remote: https://github.com/IndustryPortal/ontologies_linked_data.git
+  revision: aa0a061d7c64fc414486c2e1a3f213560169a621
+  branch: master
+  specs:
+    ontologies_linked_data (0.0.1)
+      activesupport
+      bcrypt
+      goo
+      json
+      libxml-ruby
+      multi_json
+      oj
+      omni_logger
+      pony
+      rack
+      rack-test
+      rsolr
+      rubyzip
+
+GIT
   remote: https://github.com/ontoportal-lirmm/goo.git
   revision: e47cf0442d5be0c8a811f591c98e93cf3e0af5fc
   branch: master
@@ -23,26 +43,6 @@ GIT
       ontologies_linked_data
       redis
       ruby-xxHash
-
-GIT
-  remote: https://github.com/ontoportal-lirmm/ontologies_linked_data.git
-  revision: b1d8504f434d3821b967fa07cbe17f7f3d286b41
-  branch: master
-  specs:
-    ontologies_linked_data (0.0.1)
-      activesupport
-      bcrypt
-      goo
-      json
-      libxml-ruby
-      multi_json
-      oj
-      omni_logger
-      pony
-      rack
-      rack-test
-      rsolr
-      rubyzip
 
 GIT
   remote: https://github.com/ontoportal-lirmm/sparql-client.git
@@ -76,7 +76,7 @@ GEM
       multi_json (~> 1.0)
     addressable (2.8.1)
       public_suffix (>= 2.0.2, < 6.0)
-    bcrypt (3.1.18)
+    bcrypt (3.1.19)
     builder (3.2.4)
     coderay (1.1.3)
     concurrent-ruby (1.1.10)
@@ -145,7 +145,7 @@ GEM
     jwt (2.6.0)
     launchy (2.5.2)
       addressable (~> 2.8)
-    libxml-ruby (4.0.0)
+    libxml-ruby (4.1.1)
     logger (1.5.3)
     macaddr (1.7.2)
       systemu (~> 2.6.5)
@@ -175,8 +175,8 @@ GEM
       coderay (~> 1.1)
       method_source (~> 1.0)
     public_suffix (5.0.1)
-    rack (3.0.4.1)
-    rack-test (2.0.2)
+    rack (3.0.8)
+    rack-test (2.1.0)
       rack (>= 1.3)
     rake (13.0.6)
     rdf (1.0.8)
@@ -235,6 +235,7 @@ GEM
     webrick (1.7.0)
 
 PLATFORMS
+  ruby
   x86_64-linux
 
 DEPENDENCIES
